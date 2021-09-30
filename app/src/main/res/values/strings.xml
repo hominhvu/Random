@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Random</string>
+    <string name="_0">0</string>
+    <string name="ramdom">Ramdom</string>
+    <string name="nh_p_s_th_nh_t">Nhập số thứ nhất</string>
+    <string name="nh_p_s_th_hai">nhập số thứ hai</string>
+</resources>
