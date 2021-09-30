@@ -37,13 +37,13 @@ public class MainActivity extends AppCompatActivity {
                     int max = Integer.parseInt(chuoi2);
                     //tạo số ngẫu nhiên
                     Random random = new Random();
-                    if(min>max){
-                        Toast.makeText(MainActivity.this,"Min phải nhỏ hơn max", Toast.LENGTH_SHORT).show();
-                    }else {
+//                    if(min>max){
+//                        Toast.makeText(MainActivity.this,"Min phải nhỏ hơn max", Toast.LENGTH_SHORT).show();
+//                    }else {
                         int number = random.nextInt(max - min + 1) + min;
                         //ép số -> chuỗi
                         txt.setText(String.valueOf(number));
-                    }
+//                    }
                 }
 
             }
